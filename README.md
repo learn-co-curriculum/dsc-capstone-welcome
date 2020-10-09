@@ -1,29 +1,20 @@
 # Capstone Project
 
-## Introduction
-
-In this lesson, we'll discuss the requirements for our **Capstone Project**!
-
-## Objectives
-
-You will be able to:
-
-* Describe all required aspects of the final project
-* Describe what constitutes a successful project
-
-## Introduction
-
-Congratulations on making it to the final project! It's been a long journey, but we can finally see the light at the end of the tunnel!
+Congratulations on making it to the Capstone project! It's been a long journey, but we can finally see the light at the end of the tunnel!
 
 ![Actual Footage of you seeing the light at the end of the tunnel](https://raw.githubusercontent.com/learn-co-curriculum/dsc-capstone-project/main/images/end-of-tunnel.gif)
 
-Now that you've learned everything we have to teach you, it's time to show off and flex your data science muscles with your own **_Capstone Project_**! This project will allow you to showcase everything you've learned as a data scientist to by completing a professional-level data science project of your choosing. This project will be significantly larger than any project you've completed so far, and will be the crown jewel of your portfolio. A strong capstone project is the single most important thing you can do to get the attention of potential employers, so be prepared to put as much effort into this project as possible - the results will be **_worth it!_**
+Now that you've learned all the material in our course, it's time to show off and flex your data science muscles with your own **_Capstone Project_**! This project will allow you to showcase everything you've learned as a data scientist to by completing a professional-level data science project of your choosing. This project will be significantly larger than any project you've completed so far, and will be the crown jewel of your portfolio. A strong capstone project is the single most important thing you can do to get the attention of potential employers, so be prepared to put as much effort into this project as possible - the results will be **_worth it!_**
 
 ![Your portfolio brings all the employers to your inbox](https://raw.githubusercontent.com/learn-co-curriculum/dsc-capstone-project/main/images/milkshake.gif)
 
-## Topic Requirements
+## Project Overview
 
-Your project should develop a data product or analysis related to a single topic. You are completely free to choose any topic that interests you, but keep in mind that you will need to complete this project end-to-end, including sourcing your own data. When choosing a topic, think through these questions:  
+Your Capstone project should develop a data product or analysis related to a single topic of your choice. You are free to choose any topic and use any data, so long as your project meets the requirements below.
+
+### Choosing a Topic
+
+When choosing a topic, think through these questions:  
 
 * What would I be motivated to work on?
 * What data could I use?
@@ -31,58 +22,66 @@ Your project should develop a data product or analysis related to a single topic
 * What will I be able to accomplish in the time I have available?
 * What challenges do I foresee with this project?
 
-## Technical Requirements
+### Sourcing Your Own Data
 
-Your project must meet the following technical requirements:
+Sourcing new data is a valuable skill for data scientists, but it requires a great deal of care. An inappropriate dataset or an unclear business problem can lead you spend a lot of time on a project that delivers underwhelming results. The guidelines below will help you complete a project that demonstrates your ability to engage in the full data science process.
 
-1. **_No Off-The-Shelf Datasets_**. This project is a chance for you to highlight your critical thinking and data sourcing skills by finding a good dataset to answer a useful question. You _can_ use a pre-existing dataset, but you should consider combining it with other datasets and/or engineering your own features. The goal is to showcase your ability to find and work with data, so just grabbing a squeaky-clean dataset is out of the question.
+Your data must be...
 
-2. **_Strong Data Exploration, with at least 4 relevant data visualizations._**  There are few skills that impress employers more than the ability to dive into a new dataset and produce engaging visualizations that communicate important information. For this project, anything worth knowing is worth visualizing. Level up your project by digging into more advanced visualization libraries like seaborn!
+1. **Appropriate for supervised learning models.** You may use unsupervised learning methods in your project (e.g. to generate cluster assignment labels), but there must be a substantial supervised learning component.
 
-3. **_Makes use of Supervised Learning_**. It is great to use **_Unsupervised Learning_** techniques as needed in your project (for instance, segmentation with clustering algorithms), but supervised learning should play a central role in answering your question.
+2. **Usable to solve a specific business problem.** This solution must rely on your model(s).
 
-4. **_Explicitly makes use of a Data Science Process such as OSEMN or CRISP-DM_**. Select a Data Science Process to use to give structure to your project. Each step in the process should correspond to a section in your Jupyter Notebook.  
+3. **Somewhat complex.** It should contain thousands of rows and features that require creativity to use. You _can_ use a pre-existing clean dataset, but you should consider combining it with other datasets and/or engineering your own features.
 
-5. **_A well-defined goal with clearly presented results._** Your project should provide any background context needed to understand the project you are working on and why it's important. For instance, if you are trying to detect fault lines using Earthquake data, you should review the topic and your dataset so that the reader can understand your work.  Similarly, the results of your project should be clearly communicated. Do not just tell your audience the final accuracy of your models--be sure to answer "big picture" questions as well. For instance: Would you recommend shipping this model to production, or is more work needed?
+4. **Unfamiliar.** It can't be one we've already worked with during the course or that is commonly used for demonstration purposes (e.g. MNIST).
 
-**_NOTE:_** Inconclusive results are okay--from a purely scientific perspective, they are no more or less important or valuable than any other kinds of results. If your results are inconclusive, you should discuss what your next steps would be from there. For instance, what do you think it would take to get conclusive results--more data? Different data that was unavailable? Both?
+5. **Manageable.** Stick to data that you can model with the knowledge and computational resources you have.
 
-## Requirements for Online Students Only
+Once you've sourced your own data and identified the business problem you want to solve with it, you must to **run them by your instructor for approval**.
 
-### Deliverables
+#### Problem First, or Data First?
 
-For online students, the deliverables for this project consist of the following three components:
+There are two ways that you can source your own dataset: **_Problem First_** or **_Data First_**. The less time you have to complete the project, the more strongly we recommend a Data First approach to this project.
 
-1. A Jupyter notebook for a presentation.
-  * The Jupyter notebook will have two components:
-    1. An **_Abstract_** section that briefly explains your problem, your methodology, and your findings, and business recommendations as a result of your findings. This section should be 1-2 paragraphs long.  
-    2. The technical analysis for a data science audience. This detailed technical analysis should explicitly follow a Data Science Process as outlined in the previous section. It should be well-formatted and organized, and should contain all code, visualizations, and detailed explanations/analysis.
+**_Problem First_**: Start with a problem that you are interested in that you could potentially solve using one of the four project models. Then look for data that you could use to solve that problem. This approach is high-risk, high-reward: Very rewarding if you are able to solve a problem you are invested in, but frustrating if you end up sinking lots of time in without finding appropriate data. To mitigate the risk, set a firm limit for the amount of time you will allow yourself to look for data before moving on to the Data First approach.
 
-2. An organized **README.md** file in the GitHub repository containing your project code that describes the contents of the repository. This file should be the source of information for navigating through all the code in your repository.
+**_Data First_**: Take a look at some of the most popular internet repositories of cool data sets we've listed below. If you find a data set that's particularly interesting for you, then it's totally okay to build your problem around that data set.
 
-3. A blog post showcasing your project, with a focus on your methodology and findings. A well-written blog post about your project will probably be the first thing most recruiters and hiring managers see, so really take the time to polish up this blog post and explain your project, methodology, and findings/business recommendations in a clear, concise manner. This blog post should cover everything important about your project, but remember that your audience for this blog post will largely be non-technical. Your blog post should definitely contain visualizations, code snippets, and anything else you find important, but don't get bogged down trying to explain highly technical concepts. Your blog post should provide a link to the Github repository containing your actual project, for people that want to really dive into the technical aspects of your project.
-* Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging) for the technical requirements and blog ideas.
+There are plenty of amazing places that you can get your data from. We recommend you start looking at data sets in some of these resources first:
 
-### Rubric
+* [UCI Machine Learning Datasets Repository](https://archive.ics.uci.edu/ml/datasets.html)
+* [Kaggle Datasets](https://www.kaggle.com/datasets)
+* [Awesome Datasets Repo on Github](https://github.com/awesomedata/awesome-public-datasets)
 
-Online students can find a PDF of the rubric for the final capstone project [here](/online_capstone_project_rubric.pdf).
+## The Deliverables
 
-## Requirements for On-Campus Students Only
+There are three deliverables for this project:
 
-For on-campus students, your project will be evaluated based on the contents of your GitHub repo, which must contain the following three components:
+* A **GitHub repository**
+* A **Jupyter Notebook**
+* A **non-technical presentation**
 
-1. A Jupyter notebook     
-2. An **README.md** file
-3. Presentation slides
+Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
 
-The requirements for these components are described in detail in the rubric for the final capstone project [here](https://docs.google.com/spreadsheets/d/1YUC5_QVu8BEd7xBJumzspH40-KuJtL9KQInQYXGi5bE/edit?usp=sharing). You can learn how your teacher will use the rubric to review the project [here](https://github.com/learn-co-curriculum/dsc-campus-capstone-project-review).
+### Key Points
 
-## Example Student Project
+* **Project management is key.**  You have a lot of freedom in this project - this can feel liberating, but also means that you can accidentally lose a lot of time if you're not careful. Map out a rough daily project plan with key milestones and due dates for deliverables - you can adjust this as needed as you progress. Use this to make sure you're making timely progress towards successful completion. Ask for help if you find yourself struggling to keep up with your plan.
 
-Take a look at this [technical report](https://github.com/paulinaczheng/twitter_flu_tracking) from a Flatiron student that used tweet data to predict the weekly number of flu cases during flu season. Pay attention to how well structured the project is, and how much she relies on great visualizations to tell her story for her. Your explanations don't have to be wordy - a visualization is worth a thousand words!
+* **Create an MVP, then refine it.** Once you've chosen a project, define a Minimum Viable Product (MVP) that you feel confident you can deliver, and set daily goals to get that done as soon as you can. This will reduce your anxiety about whether or when you can finish the project, and will give you the time you need to polish all of your deliverables so that they are super shiny for sharing with employers.
+
+* **Your deliverables should explicitly address each step of the data science process.** Refer to [the Data Science Process lesson](https://github.com/learn-co-curriculum/dsc-data-science-processes) from Topic 19 for more information about process models you can use.
+
+## Getting Started
+
+Create a new repository for your project to get started. We recommend structuring your project repository similar to the structure in [the Phase 1 Project Template](https://github.com/learn-co-curriculum/dsc-project-template). You can do this either by creating a new fork of that repository to work in or by building a new repository from scratch that mimics that structure.
+
+You can also check out [Capstone projects from former Flatiron DS students](https://github.com/learn-co-curriculum/dsc-capstone-examples) for inspiration.
+
+## Project Submission and Review
+
+Review the "Capstone Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to graduate from your program.
 
 ## Summary
 
-The Capstone Project is the most critical part of the program. It gives you a chance to bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills.  Most importantly, it provides employers with strong signal about your technical abilities, and allow you to show the world what an amazing Data Scientist you've become!
-
-The projects are serious and important - they can be passed and they can be failed. Take the project seriously, put the time in, ask for help from your peers or instructors early and often if you need it, and treat the review as a job interview and you'll do great. We're rooting for you to succeed and we're only going to ask you to take a review again if we believe that you need to. We'll also provide open and honest feedback so you can improve as quickly and efficiently as possible.
+The Capstone Project is the most critical part of the program. It gives you a chance to bring together all the skills you've learned into a realistic project, including the project management, business analysis, and communication.  Most importantly, it provides employers with strong signal about your technical abilities and allows you to show the world what an amazing Data Scientist you've become!
